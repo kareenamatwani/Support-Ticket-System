@@ -12,9 +12,6 @@ This project is a support ticket system that allows users to create and manage s
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
-- [License](#license)
 
 
 ## Tech Stack
