@@ -6,6 +6,7 @@ This project is a support ticket system that allows users to create and manage s
 
 ## Table of Contents
 
+- [Tech Stack](#tech-stack)
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
