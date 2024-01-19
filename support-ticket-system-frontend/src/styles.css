@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,100;1,200;1,400;1,500&display=swap');
+
+body {
+    font-family: 'sans-serif', 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    background-color: rgb(250, 251, 255); /* Button color */
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    
+    outline: none;
+}
+.support-ticket{
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid;
+    background-color: rgb(250, 251, 255); /* Button color */
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+.support-ticket:hover{
+    background-color:#0d0b54 ;
+    color: #fff;
+}
+
+.tabContainer {
+    display: flex;
+    margin-bottom: 20px;
+    border: 2px solid;
+}
+
+@media (max-width: 600px) {
+    .tabContainer {
+        flex-direction: column;
+    }
+}
+
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.activeTab {
+    background-color: #0d0b54; /* Active tab color */
+    color: white;
+}
+.error-message, .success-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .success-message {
+    background-color: #4caf50;
+    color: white;
+  }
+
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Optional: Add border radius */
+    background-color: #fff; /* Background color */
+    font-size: 16px;
+    outline: none; /* Remove default focus outline */
+}
+
+/* Style for the dropdown arrow */
+select::-ms-expand {
+    display: none;
+}
+
+select:hover {
+    border-color: #555; /* Change border color on hover */
+}
+
+select:focus {
+    border-color: #0d0b54; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(13, 11, 84, 0.3); /* Add a subtle box shadow on focus */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Style table headers */
+  th {
+    background-color: #9d9da4;
+    padding: 10px;
+    border: 1px solid   ;
+    text-align: center;
+  }
+  
+  /* Style table cells */
+  td {
+    padding: 10px;
+    border: 1px solid ;
+  }
+  
+  /* Apply alternate row colors for better readability */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style the table heading */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
