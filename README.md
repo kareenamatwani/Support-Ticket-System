@@ -51,8 +51,8 @@ Start the application:
 npm start
 
 Start the server:
-    ```bash
-    node server.js
+```bash
+node server.js
 
 Usage
 Access the application at http://localhost:3000.
